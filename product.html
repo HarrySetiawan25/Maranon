@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Maranon | Sports Wear & Shoes</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+	<link rel="stylesheet" href="css/jquery-ui.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 text-center text-lg-left">
+						<a href="./index.html" class="site-logo">
+							<img class="logo-pic" src="img/logo1.jpg" alt="">
+						</a>
+                    </div>
+                    <div class="col-xl-6 col-lg-5">
+                        <form class="header-search-box">
+							<input type="text" placeholder="Search on maranon ....">
+							<div class="result">
+								<table id="myTable">
+									
+								</table>
+							</div>
+                            <button><i class="flaticon-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="user-panel">
+                            <div class="up-item">
+                                <i class="flaticon-profile"></i>
+                                <a href="#">Sign</a> In or <a href="#">Create account</a>
+                            </div>
+                            <div class="up-item mc-open">
+                                <div class="shopping-cart">
+                                    <i class="flaticon-shopping-cart"></i>
+                                    <span>0</span>
+                                </div>
+                                <a href="#">Shopping Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-navbar">
+            <div class="container">
+                <ul class="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Men</a></li>
+					<li><a href="#">Women</a></li>
+					<li><a href=#>Cloth</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Jackets & Vest</a></li>
+                            <li><a href="#">Top & Shirts</a></li>
+                            <li><a href="#">Shorts</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=#>Shoes</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Basketball</a></li>
+                            <li><a href="#">Running</a></li>
+                            <li><a href="#">Football</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./category.html">Shop</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+	<!-- Header section end -->
+	
+	<div class="mini-cart">
+		<div class="mc-empty">
+		
+		</div>
+		<div class="container">
+			<ul class="mc-item">
+				
+			</ul>
+			<div class="mc-total">
+				
+			</div>
+			<div class="mc-btn">
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!-- product section -->
+	<section class="product-section">
+		<div class="container">
+			<div class="back-link">
+				<a href="./category.html"> &lt;&lt; Back to Category</a>
+			</div>
+			<div class="row">
+				<div class="col-lg-6" id="singleProductImg">
+					
+				</div>
+				<div class="col-lg-6 product-details">
+					<h2 class="p-title"></h2>
+					<h3 class="p-price"></h3>
+					<h4 class="p-stock">Available: <span>In Stock</span></h4>
+					<div class="p-rating">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o fa-fade"></i>
+					</div>
+					<div class="p-review">
+						<a href="">3 reviews</a>|<a href="">Add your review</a>
+					</div>
+					<div class="fw-size-choose">
+						<p>Size</p>
+						<div class="sc-item">
+							<input type="radio" name="sc" id="xs-size">
+							<label for="xs-size">39</label>
+						</div>
+						<div class="sc-item">
+							<input type="radio" name="sc" id="s-size">
+							<label for="s-size">40</label>
+						</div>
+						<div class="sc-item">
+							<input type="radio" name="sc" id="m-size" checked="">
+							<label for="m-size">41</label>
+						</div>
+						<div class="sc-item">
+							<input type="radio" name="sc" id="l-size">
+							<label for="l-size">42</label>
+						</div>
+						<div class="sc-item disable">
+							<input type="radio" name="sc" id="xl-size" disabled>
+							<label for="xl-size">43</label>
+						</div>
+						<div class="sc-item">
+							<input type="radio" name="sc" id="xxl-size">
+							<label for="xxl-size">44</label>
+						</div>
+					</div>
+					<div class="quantity">
+						<p>Quantity</p>
+                        <div class="pro-qty"><input type="text" value="1"></div>
+                    </div>
+					<a href="#" class="site-btn">SHOP NOW</a>
+					<div id="accordion" class="accordion-area">
+						<div class="panel">
+							<div class="panel-header" id="headingOne">
+								<button class="panel-link active" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">information</button>
+							</div>
+							<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="panel-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-header" id="headingTwo">
+								<button class="panel-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">care details </button>
+							</div>
+							<div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div class="panel-body">
+									<img src="./img/cards.png" alt="">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-header" id="headingThree">
+								<button class="panel-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">shipping & Returns</button>
+							</div>
+							<div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+								<div class="panel-body">
+									<h4>7 Days Returns</h4>
+									<p>Cash on Delivery Available<br>Home Delivery <span>3 - 4 days</span></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="social-sharing">
+						<a href=""><i class="fa fa-google-plus"></i></a>
+						<a href=""><i class="fa fa-pinterest"></i></a>
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- product section end -->
+
+	<!-- RELATED PRODUCTS section -->
+	<section class="related-product-section">
+		<div class="container">
+			<div class="section-title">
+				<h2>RELATED PRODUCTS</h2>
+			</div>
+			<div class="product-slider owl-carousel">
+			</div>
+		</div>
+	</section>
+	<!-- RELATED PRODUCTS section end -->
+
+
+	<!-- Footer section -->
+	<section class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget about-widget">
+						<h2>About</h2>
+						<p>Donec vitae purus nunc. Morbi faucibus erat sit amet congue mattis. Nullam frin-gilla faucibus urna, id dapibus erat iaculis ut. Integer ac sem.</p>
+						<img src="" alt="">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget about-widget">
+						<h2>Questions</h2>
+						<ul>
+							<li><a href="">About Us</a></li>
+							<li><a href="">Track Orders</a></li>
+							<li><a href="">Returns</a></li>
+							<li><a href="">Jobs</a></li>
+							<li><a href="">Shipping</a></li>
+							<li><a href="">Blog</a></li>
+						</ul>
+						<ul>
+							<li><a href="">Partners</a></li>
+							<li><a href="">Bloggers</a></li>
+							<li><a href="">Support</a></li>
+							<li><a href="">Terms of Use</a></li>
+							<li><a href="">Press</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="social-links-warp">
+						<div class="container">
+							<div class="social-links">
+								<table style="width: 100%;">
+									<tr>
+										<td>
+											<a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
+										</td>
+										<td>
+											<a href="" class="google-plus"><i class="fa fa-google-plus"></i><span>g+plus</span></a>
+										</td>
+										<td>
+											<a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+										</td>
+										<td>
+											<a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
+										</td>
+										<td>
+											<a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer section end -->
+
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	</body>
+</html>
